@@ -1,0 +1,3 @@
+#!/bin/bash
+user_groups=$(groups)
+echo $user_groups
