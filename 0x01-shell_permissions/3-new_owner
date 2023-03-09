@@ -1,2 +1,3 @@
 #!/bin/bash
-sudo chown betty hello
+user=$(getent passwd betty | cut -d: -f1)
+echo "$user"
