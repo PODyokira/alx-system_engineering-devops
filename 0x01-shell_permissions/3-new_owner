@@ -1,8 +1,2 @@
 #!/bin/bash
-user="betty"
-filename="hello"
-echo "Before changing owner:"
-ls -l $filename
-sudo chown $user $filename
-echo "After changing owner:"
-ls -l $filename
+sudo chown betty hello
